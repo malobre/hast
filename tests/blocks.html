@@ -1,0 +1,32 @@
+<!-- inline empty blocks -->
+<div></div>
+<!-- inline empty blocks with short attributes -->
+<div attr="short" test></div>
+<!-- multiline attributes with inline end tag -->
+<div
+  attributes="many"
+  short="negative"
+  long="indeed"
+  over-max-width="definitely"
+></div>
+<!-- inline text-only block -->
+<div>Hi there !</div>
+<!-- inline short block -->
+<div>Hi<b>there</b>!</div>
+<!-- block without attributes -->
+<div>
+  <div>Hi there !</div>
+</div>
+<!-- block with inlined attributes -->
+<div attr="short" test>
+  <div>Hi there !</div>
+</div>
+<!-- block with multiline attributes -->
+<div
+  attributes="many"
+  short="negative"
+  long="indeed"
+  over-max-width="definitely"
+>
+  <div>Hi there !</div>
+</div>
